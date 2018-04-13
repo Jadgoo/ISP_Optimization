@@ -22,7 +22,7 @@ int ISP_Simulator::run(unsigned int numCycles, Cam camera, ISP isp, CV cv){
     int ispQueue = 0;
     int cvQueue = 0;
 
-    for(int i = 0; i < numCycles; i++){
+    for(int i = 0; i <= numCycles; i++){
 
         atCycle = i;
 
